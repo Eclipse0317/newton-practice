@@ -1,7 +1,7 @@
-d_eps = 0.001  # the approximately epsilon used to calculate the derivative
-d_ord = 1000  # the reciprocal of d_eps
-eps = 0.001  # the stopping criterion of optimize function
-tolerance = 1000  # maximum iteration of optimization loop
+d_eps = 1e-4  # the approximately epsilon used to calculate the derivative
+d_ord = 1e4  # the reciprocal of d_eps
+eps = 1e-5  # the stopping criterion of optimize function
+tolerance = 1e5  # maximum iteration of optimization loop
 
 
 def deriv(fun, x):
